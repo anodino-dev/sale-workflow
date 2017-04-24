@@ -31,8 +31,11 @@ class StockPicking(models.Model):
     def _create_invoice_from_picking(self, cr, uid, picking, vals,
                                      context=None):
         vals['workflow_process_id'] = picking.workflow_process_id.id
+        workflow = picking.workflow_process_id
         if picking.workflow_process_id.invoice_date_is_order_date:
             vals['date_invoice'] = picking.sale_id.date_order
+        if workflow.property_journal_id:
+            vals['journal_id'] = workflow.property_journal_id.id
 
         _super = super(StockPicking, self)
         return _super._create_invoice_from_picking(cr, uid, picking, vals,
