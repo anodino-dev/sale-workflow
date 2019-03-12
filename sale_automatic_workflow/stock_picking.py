@@ -34,7 +34,7 @@ class StockPicking(models.Model):
         workflow = picking.workflow_process_id
         if picking.workflow_process_id.invoice_date_is_order_date:
             vals['date_invoice'] = picking.sale_id.date_order
-        if workflow.property_journal_id:
+        if workflow.property_journal_id and vals['type']=='out_invoice':
             vals['journal_id'] = workflow.property_journal_id.id
 
         _super = super(StockPicking, self)
