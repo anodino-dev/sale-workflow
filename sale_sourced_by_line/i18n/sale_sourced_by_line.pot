@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-14 08:07+0000\n"
-"PO-Revision-Date: 2014-10-14 08:07+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,11 +24,6 @@ msgid "Picking List"
 msgstr ""
 
 #. module: sale_sourced_by_line
-#: field:sale.order.line,procurement_group_id:0
-msgid "Procurement group"
-msgstr ""
-
-#. module: sale_sourced_by_line
 #: model:ir.model,name:sale_sourced_by_line.model_sale_order
 msgid "Sales Order"
 msgstr ""
@@ -43,5 +36,10 @@ msgstr ""
 #. module: sale_sourced_by_line
 #: field:sale.order.line,warehouse_id:0
 msgid "Source Warehouse"
+msgstr ""
+
+#. module: sale_sourced_by_line
+#: view:sale.order:sale_sourced_by_line.view_order_form_form
+msgid "{'default_warehouse_id': warehouse_id}"
 msgstr ""
 

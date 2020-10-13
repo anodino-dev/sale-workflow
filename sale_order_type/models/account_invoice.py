@@ -17,7 +17,8 @@ class AccountInvoice(models.Model):
                         description=None, journal_id=None):
         values = super(AccountInvoice, self)._prepare_refund(
             invoice, date, period_id, description, journal_id)
-        if invoice.origin:
+        if invoice.type in ['out_invoice', 'out_refund'] and\
+                invoice.origin:
             orders = self.env['sale.order'].search(
                 [('name', '=', invoice.origin)])
             journal = False
@@ -46,7 +47,7 @@ class AccountInvoice(models.Model):
             partner = self.env['res.partner'].browse(partner_id)
             if partner.sale_type:
                 res['value'].update({
-                    'type_id': partner.sale_type.id,
+                    'sale_type_id': partner.sale_type.id,
                 })
         return res
 

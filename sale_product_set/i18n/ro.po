@@ -1,21 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_product_set
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: sale-workflow (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-04 06:32+0000\n"
-"PO-Revision-Date: 2017-03-06 09:10+0000\n"
+"POT-Creation-Date: 2017-11-18 08:29+0000\n"
+"PO-Revision-Date: 2017-11-23 23:27+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Romanian (http://www.transifex.com/oca/OCA-sale-workflow-8-0/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/oca/OCA-sale-workflow-8-0/"
+"language/ro/)\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
 
 #. module: sale_product_set
 #: code:addons/sale_product_set/models/product_set.py:18
@@ -89,7 +91,7 @@ msgstr "Ultima actualizare la"
 #. module: sale_product_set
 #: field:product.set,name:0
 msgid "Name"
-msgstr ""
+msgstr "Nume"
 
 #. module: sale_product_set
 #: field:product.set.line,product_id:0
@@ -138,7 +140,7 @@ msgstr ""
 #: field:product.set.add,quantity:0 field:product.set.line,quantity:0
 #, python-format
 msgid "Quantity"
-msgstr ""
+msgstr "Cantitate"
 
 #. module: sale_product_set
 #: field:product.set.line,sequence:0

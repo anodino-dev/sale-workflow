@@ -1,20 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_validity
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: sale-workflow (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-10 05:55+0000\n"
+"POT-Creation-Date: 2017-04-04 03:01+0000\n"
 "PO-Revision-Date: 2015-09-03 07:11+0000\n"
 "Last-Translator: <>\n"
-"Language-Team: Hungarian (http://www.transifex.com/oca/OCA-sale-workflow-8-0/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/oca/OCA-sale-workflow-8-0/"
+"language/hu/)\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_validity
@@ -55,4 +56,4 @@ msgstr ""
 #. module: sale_validity
 #: field:sale.order,date_validity:0
 msgid "Valid Until"
-msgstr ""
+msgstr "Érvényesség vége"

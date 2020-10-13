@@ -22,26 +22,30 @@ addon | version | summary
 [account_invoice_reorder_lines](account_invoice_reorder_lines/) | 8.0.1.0.0 | Provide a new field on the invoice line form, allowing to manage the lines order.
 [partner_prepayment](partner_prepayment/) | 8.0.1.0.0 | Option on partner to set prepayment policy
 [partner_prospect](partner_prospect/) | 8.0.1.0.0 | Partner Prospect
-[product_margin_classification](product_margin_classification/) | 8.0.1.0.0 | Product Margin Classification
+[product_margin_classification](product_margin_classification/) | 8.0.2.1.0 | Product Margin Classification
 [sale_allotment](sale_allotment/) | 8.0.1.1.0 | Separate the shipment according to allotment partner
 [sale_automatic_workflow](sale_automatic_workflow/) | 8.0.0.3.0 | Sale Automatic Workflow
 [sale_automatic_workflow_exception](sale_automatic_workflow_exception/) | 8.0.1.0.0 | Sale Automatic Workflow Exception
 [sale_cancel_reason](sale_cancel_reason/) | 8.0.1.1.0 | Sale Cancel Reason
 [sale_change_price](sale_change_price/) | 8.0.1.0.0 | Sale Change Price
+[sale_comment_propagation](sale_comment_propagation/) | 8.0.1.0.0 | Comments for sale documents (order, picking and invoice)
+[sale_delivery_split_date](sale_delivery_split_date/) | 8.0.1.2.0 | Sale Deliveries split by date
 [sale_exception_nostock](sale_exception_nostock/) | 8.0.1.2.0 | Sale stock exception
 [sale_exceptions](sale_exceptions/) | 8.0.1.0.0 | Custom exceptions on sale order
 [sale_last_price_info](sale_last_price_info/) | 8.0.1.0.0 | Product Last Price Info - Sale
+[sale_line_price_properties_based](sale_line_price_properties_based/) | 8.0.1.0.0 | Sale line price properties based
 [sale_line_quantity_properties_based](sale_line_quantity_properties_based/) | 8.0.1.0.0 | Sale line quantity properties based
 [sale_order_add_variants](sale_order_add_variants/) | 8.0.0.1.0 | Add variants from template into sale order
 [sale_order_back2draft](sale_order_back2draft/) | 8.0.1.0.0 | Back to draft on sales orders
 [sale_order_calendar_event](sale_order_calendar_event/) | 8.0.1.0.0 | Allows you to attach appointments related to sale orders to the order itself
+[sale_order_line_date](sale_order_line_date/) | 8.0.1.0.0 | Sale Order Line Date
 [sale_order_line_description](sale_order_line_description/) | 8.0.1.0.0 | Sale order line description
 [sale_order_line_variant_description](sale_order_line_variant_description/) | 8.0.1.0.0 | Sale order line variant description
 [sale_order_lot_selection](sale_order_lot_selection/) | 8.0.1.0.0 | Sale Order Lot Selection
 [sale_order_merge](sale_order_merge/) | 8.0.1.0.0 | Merge sale orders that are confirmed, invoiced or delivered
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 8.0.1.0.0 | Price recalculation in sales orders
 [sale_order_revision](sale_order_revision/) | 8.0.0.1.0 | Sale order revisions
-[sale_order_type](sale_order_type/) | 8.0.1.0.1 | Sale Order Types
+[sale_order_type](sale_order_type/) | 8.0.1.1.0 | Sale Order Types
 [sale_order_type_sale_journal](sale_order_type_sale_journal/) | 8.0.1.0.0 | Link module between sale_order_type and sale_journal
 [sale_order_unified_menu](sale_order_unified_menu/) | 8.0.1.0.0 | Sale Order Unified Menu
 [sale_order_weight](sale_order_weight/) | 8.0.1.0.0 | Sale Order Weight
@@ -54,7 +58,9 @@ addon | version | summary
 [sale_payment_method_transaction_id](sale_payment_method_transaction_id/) | 8.0.1.0.0 | Sale Payment Method - Transaction ID Compatibility
 [sale_payment_term_interest](sale_payment_term_interest/) | 8.0.1.0.0 | Sales Payment Term Interests
 [sale_pricelist_discount](sale_pricelist_discount/) | 8.0.1.0.0 | Sale Pricelist Discount
-[sale_procurement_group_by_line](sale_procurement_group_by_line/) | 8.0.1.0.0 | Base module for multiple procurement group by Sale order
+[sale_pricelist_triple_discount](sale_pricelist_triple_discount/) | 8.0.1.0.0 | Sale Pricelist Triple Discount
+[sale_procurement_group_by_line](sale_procurement_group_by_line/) | 8.0.1.0.1 | Base module for multiple procurement group by Sale order
+[sale_product_multi_add](sale_product_multi_add/) | 8.0.1.0.0 | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 8.0.1.0.0 | Sale product set
 [sale_product_set_layout](sale_product_set_layout/) | 8.0.1.0.0 | Sale product set layout
 [sale_properties_dynamic_fields](sale_properties_dynamic_fields/) | 8.0.1.0.0 | Sale properties dynamic fields
@@ -70,6 +76,7 @@ addon | version | summary
 [sale_sourced_by_line](sale_sourced_by_line/) | 8.0.1.1.0 | Multiple warehouse source locations for Sale order
 [sale_sourced_by_line_sale_transport_multi_address](sale_sourced_by_line_sale_transport_multi_address/) | 8.0.1.0.0 | Make sale_sourced_by_line and sale_transport_multi_addresswork together
 [sale_start_end_dates](sale_start_end_dates/) | 8.0.0.1.0 | Adds start date and end date on sale order lines
+[sale_triple_discount](sale_triple_discount/) | 8.0.1.0.0 | Manage triple discount on sale order lines
 [sale_validity](sale_validity/) | 8.0.7.0.0 | Sales Quotation Validity Date
 [sales_team_security](sales_team_security/) | 8.0.1.0.0 | Sales teams security
 

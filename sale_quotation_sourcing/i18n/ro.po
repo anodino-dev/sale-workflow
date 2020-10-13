@@ -1,21 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_quotation_sourcing
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: sale-workflow (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-04 06:32+0000\n"
+"POT-Creation-Date: 2017-07-01 08:13+0000\n"
 "PO-Revision-Date: 2015-09-03 07:10+0000\n"
 "Last-Translator: <>\n"
-"Language-Team: Romanian (http://www.transifex.com/oca/OCA-sale-workflow-8-0/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/oca/OCA-sale-workflow-8-0/"
+"language/ro/)\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
 
 #. module: sale_quotation_sourcing
 #: view:sale.order.sourcing:sale_quotation_sourcing.sale_order_sourcing_wizard
@@ -82,7 +84,7 @@ msgstr ""
 #. module: sale_quotation_sourcing
 #: model:ir.model,name:sale_quotation_sourcing.model_procurement_order
 msgid "Procurement"
-msgstr ""
+msgstr "Aprovizionare"
 
 #. module: sale_quotation_sourcing
 #: field:sale.order.line.sourcing,product_id:0
@@ -92,7 +94,7 @@ msgstr "Produs"
 #. module: sale_quotation_sourcing
 #: model:ir.model,name:sale_quotation_sourcing.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr ""
+msgstr "Linie comandă achiziție"
 
 #. module: sale_quotation_sourcing
 #: view:sale.order.sourcing:sale_quotation_sourcing.sale_order_sourcing_wizard
@@ -117,12 +119,12 @@ msgstr ""
 #. module: sale_quotation_sourcing
 #: model:ir.model,name:sale_quotation_sourcing.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Comandă vânzare"
 
 #. module: sale_quotation_sourcing
 #: model:ir.model,name:sale_quotation_sourcing.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Linie comandă vânzare"
 
 #. module: sale_quotation_sourcing
 #: field:sale.order.line.sourcing,po_line_id:0
@@ -138,8 +140,7 @@ msgstr ""
 #: model:sale.exception,description:sale_quotation_sourcing.inconsistent_sourcing
 msgid ""
 "The chosen route is inconsistent with the destination of the purchase line "
-"that has been chosen. Please change the route or choose a different "
-"purchase."
+"that has been chosen. Please change the route or choose a different purchase."
 msgstr ""
 
 #. module: sale_quotation_sourcing
