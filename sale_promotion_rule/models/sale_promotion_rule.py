@@ -17,6 +17,7 @@ _logger = logging.getLogger(__name__)
 class SalePromotionRule(models.Model):
     _name = 'sale.promotion.rule'
     _description = 'Sale Promotion Rule'
+    _order = "sequence, id"
 
     sequence = fields.Integer(default=10)
     rule_type = fields.Selection(
@@ -394,7 +395,8 @@ according to the strategy
                 if self.multi_rule_strategy != 'cumulate':
                     discount = 0.0
                 discount += percent_discount
-                if self.rule_type == 'coupon':
+                if self.rule_type == 'coupon' and \
+                        self.discount_type == 'percentage':
                     v = {
                         'discount': discount,
                         'coupon_promotion_rule_id': self.id
